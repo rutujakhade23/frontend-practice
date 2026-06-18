@@ -1,0 +1,95 @@
+/*h2{
+    text-align:left;
+    font: weight 400px;
+    text-decoration: red wavy underline;
+    text-decoration: overline;
+    font-family:impact;
+}
+a{
+    text-decoration: none;
+}
+p{
+    letter-spacing: 1px;
+    
+}
+p{
+    font-family: Arial;
+}
+h1{
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5x;
+    text-decoration:teal double underline;
+    text-transform: uppercase;
+}*/
+/* universal selector
+*{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: black;
+}*/
+/*h3,h1{
+    color:grey
+}*/
+/*#login{
+    background-color: white;
+}
+.upvote{
+    color: green;
+    background-color: blueviolet;
+}*
+
+p a{
+    background-color: yellow;
+}*/ 
+
+/*p + h3{
+    color: brown;
+    text-decoration: line-through;
+}*/
+
+/*input[type="text"]{
+    color: brown;
+}
+input[type="password"]{
+    color: cornflowerblue;
+}
+
+#myId p{
+ 
+
+button:hover{
+    color: blue;
+}
+h3:hover{
+    text-decoration: overline;
+}
+h3:active{
+    color: hotpink;
+}
+p:active{
+    color: brown;
+    background-color: cornflowerblue;
+}   color: green;
+}
+
+input[type="radio"]:checked+label{
+    background-color: red;
+    color:blue;
+}   color: green;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+

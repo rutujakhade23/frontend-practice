@@ -1,0 +1,17 @@
+div{
+    height: 500px;
+}
+
+div{
+    border: 5px;
+    border-style: dashed;
+}
+
+div{
+    border-bottom-right-radius: 30px;
+
+}
+button{
+    color: white;
+    background-color: black;
+}

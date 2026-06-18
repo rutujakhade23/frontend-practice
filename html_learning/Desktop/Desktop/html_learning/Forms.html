@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)file:///C:/Users/khade/OneDrive/Desktop/html_learning/Forms.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="file:///C:/action">
+        username
+        <input type="text">
+        <br>
+        password
+        <input type="password">
+        <br>
+        number
+        <input type="number">
+        <br>
+        time
+        <input type="time">
+        <br>
+        color
+        <input type="color">
+        <br>
+        <!--using placeholder-->
+        username
+        <input type="text" placeholder="enter username">
+        <br>
+        password
+        <input type="password" placeholder="enter password">
+        <br>
+        number
+        <input type="number" placeholder="enter number">
+        <br>
+        time
+        <input type="time" placeholder="enter time">
+        <br>
+        color
+        <input type="color" placeholdet="enter color">
+        <br>
+        <!--using label-->
+        <label for=" username">username:</label>
+        <input type="text" placeholder="enter username" id="username" name="rutu"/>
+        <br>
+        <label for="password">password:</label>
+        <input type="password" placeholder="enter password" id="password" name="rutu"/>
+        <br>
+        <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="search in youtube" name="search_quiry">
+        <button>search</button>
+        </form>
+        <br> 
+        <form action="/server">
+            <input type="checkbox" id="age" name="age" checked>
+            <label for="age">I am 18+</label>
+            <button>submit</button>
+            <div>
+                <input type="radio" name="fruit" id="apple" value="apple">
+                <label for="apple">apple</label>
+                <button>check</button>
+                <input type="radio" name="fruit" id="mango" value="mango">
+                <label for="mango">mango</label>
+                <button>check</button>
+            </div>
+            <div>
+                <input type="checkbox" id="sub" name="math" >
+                <label for="sub">math</label>
+                <input type="checkbox" id="sub" name="sci" >
+                <label for="sub">sci</label>
+                <input type="checkbox" id="sub" name="eng" >
+                <label for="sub">eng</label>
+                <button>check</button>
+                
+            </div>
+            <div>
+                Choose your proffession
+                <select name="profession" id="profession">
+                    <option value="select your option" >select your optiont</option>
+                    <option value="stu">student</option>
+                    <option value="dev"selected>developer</option>
+                </select>
+            </div>
+            <div>
+                <label for="Volume">volume:</label>
+                <input type="range"min="0"max="100" name="vol" value="70" step="30">
+                <button>submit</button>
+            </div>
+            <div>
+                <label for="feedback">Please give your fedback:</label>
+                <textarea id="feedback" name="feedback" rows="5" cols="100"></textarea>
+                <button>submit</button>
+            </div>
+        </form>
+
+        
+</body></html>

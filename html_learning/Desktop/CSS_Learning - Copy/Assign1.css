@@ -1,0 +1,46 @@
+p{
+    color: brown;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+p{
+    color: red;
+    background-color: rgb(206, 251, 26);
+}
+h3{
+    color: black;
+}
+p{
+    font-family: georgia;
+}
+h4{
+    color: green;
+}
+button{
+    background-color: white;
+    color: blueviolet;
+}
+textarea{
+    color: black;
+    background-color:cyan;
+}
+p{
+    line-height: 30px;
+}
+h1{
+    text-decoration: underline;
+    color: red;
+}
+h4{
+    font-style: georgia;
+}

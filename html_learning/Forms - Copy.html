@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="file:///C:/action">
+        username
+        <input type="text">
+        <br>
+        password
+        <input type="password">
+        <br>
+        number
+        <input type="number">
+        <br>
+        time
+        <input type="time">
+        <br>
+        color
+        <input type="color">
+        <br>
+        <!--using placeholder-->
+        username
+        <input type="text" placeholder="enter username">
+        <br>
+        password
+        <input type="password" placeholder="enter password">
+        <br>
+        number
+        <input type="number" placeholder="enter number">
+        <br>
+        time
+        <input type="time" placeholder="enter time">
+        <br>
+        color
+        <input type="color" placeholdet="enter color">
+        <br>
+        <!--using label-->
+        <label for=" username">username:</label>
+        <input type="text" placeholder="enter username" id="username" name="rutu">
+        <br>
+        <label for="password">password:</label>
+        <input type="password" placeholder="enter password" id="password" name="rutu">
+        <br>
+        
+        <input type="text" placeholder="search in youtube" name="search_quiry">
+        <button>search</button>
+        </form>
+        <br> 
+        <form action="file:///C:/server">
+            <input type="checkbox" id="age" name="age">
+            <label for="age">I am 18+</label>
+        </form>
+        <button type="submit">submit</button>
+    <h3>Registration form</h3>
+    <form action="/action">
+        <div>
+            <input type="text"placeholder="First name"name="first name"/>
+            <input type="text"placeholder="last name"name="Last name"/>
+        </div>
+        <div>
+            <label for="gender">please select your gender</label>
+            <select name="gender"id="gender">
+                <option value="m">Male</option>
+                <option value="Female"selected>Female</option>
+                <option value="o">Others</option>
+                <button>Submit</button>
+            </select>
+        </div>
+        <div>
+            Do you agree conditons?
+            <input type="checkbox"id="Tos"name="Tos"/>
+            <label for="Tos">Yes, I agree</label>
+        </div>
+        <button>Submit</button>
+    </form>
+    <table border="black">
+        <caption>Student information</caption>
+        <tr>
+            <th>Info</th>
+            <th>Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <td rowspan="6"></td>
+            <td></td>
+            
+            <td>City</td>
+            <td>House</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>pune</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <form action="/action">
+        Name:
+        <input type="text">
+        <br>
+        Sex:
+        <input type="radio"name="sex"id="male"value="male">
+        <label for="male">male</label>
+        <input type="radio"name="sex"id="female"value="male">
+        <label for="female">female</label>
+        Country:
+        <select name="country"id="country">
+            <option>Select your option</option>
+            <option value="india">India</option>
+            <option value="Hongkong">Hongkong</option>
+            
+        </select>
+        <hr>
+            Message:
+            <label for="message">Please type your message</label>
+            <textarea id="message"name="message"></textarea>
+        <input type="checkbox"id="subscribe"name="subscribe"/>
+        <label for="subscribe">Subscribe?</label>
+        <button>submit</button>
+    </form>
+
+</body></html>

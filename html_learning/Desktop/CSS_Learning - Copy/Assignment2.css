@@ -1,0 +1,25 @@
+*{
+    text-align: center;
+}
+h1,h3{
+    font-style: georgia;
+}
+
+.a{
+    color: white;
+    background-color: cornflowerblue;
+}
+div label, button{
+    color: azure;
+    background-color: purple;
+}
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+h1::first-letter{
+    color: red;
+}
+input[type="checkbox"]:checked{
+    color: red;
+}

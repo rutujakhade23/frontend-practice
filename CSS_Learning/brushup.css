@@ -1,0 +1,92 @@
+/* h2 {
+    color : orange;
+}
+button {
+    background-color: blue;
+    color: white;
+}
+h1 {
+    color: black;
+    background-color: white;
+} */
+/* h2 {
+    color: rgb(255, 255, 255);
+} */
+ /* h2 {
+    color: #000;
+ } */
+/* h2{
+    text-align: justify;
+}
+h2{
+    font-weight: lighter;
+} */
+/* h2{
+    text-decoration: line-through;
+}  */
+/* h2{
+    line-height: 2.5;
+}*/
+/* h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+/* *{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+/* h2{
+    color: blue;
+} */
+/* .a{
+    color: blue;
+} */
+/* * div{ */
+    /* width: 100px;
+} */ 
+/* div{
+    border: 1px black solid;
+} */
+/* div {
+    border: 10px solid black;
+} */
+/* div{
+    border-radius: 50% dashed black;
+}
+p{
+    border-radius: 50% dashed black;
+} */
+ /* div{
+    border: 10px solid black;
+    border-left-color: blue;
+    border-radius: 50%;
+}  */
+/* div{
+    padding-left: 50px;
+} */
+/* .b{
+    margin-right: 20px;
+} */
+/* #c {
+    padding: 50px;
+    color: blue;
+} */
+#outer {
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+.inner {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}

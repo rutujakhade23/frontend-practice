@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+    <!--question no 1-->
+    <table Border="black">
+        <Caption>Student information</Caption>
+        <thead>
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+            <tr>
+                <th>city</th>
+                <th>House</th>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>c</td>
+                <td>Kolkata</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>d</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+        </thead>
+    </table>
+    <form>
+        <label for="name">name:</label>
+        <input type="text" id="Name" placeholder="Enter name">
+        <div>
+            <label for="sex">sex:</label>
+            <input type="radio" name="Sex" id="Female" value="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="Sex" id="male" value="male">
+            <label for="male">male</label>
+        </div>
+        <div>
+            <label for="country">country:</label>
+            <select name="Country" id="Country">
+                <option value="India">India</option>
+                <option value="America">America</option>
+                <option value="Hongkong">Hongkong</option>
+            </select>
+        </div>
+        <div>
+            <labels for="message">Message</labels>
+            <textarea is="message"name="message"></textarea>
+        </div>
+        <div>
+            <input type="radio" name="Subscribe" id="subscribe" value="subscribe">
+            <label for="male">male</label>
+
+        </div>
+        <div>
+            <button>submit</button>
+        </div>
+
+    </form>
+</body>
+</html>

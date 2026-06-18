@@ -1,0 +1,81 @@
+*{
+    font-family: 'Courier New';
+}
+h3{
+    color: aquamarine;
+}
+h1,h3{
+    color:#b92b27;
+}
+#login{
+    background-color:#b92b27;
+    color: white;
+}
+#signup{
+    background-color: #b92b27;
+}
+#signup{
+    color: white;
+}
+.upvote{
+    background-color: green;
+}
+.a{
+    background-color: azure;
+}
+/* descendant selector */
+p a{
+    color: purple;
+    background-color: yellow;
+}
+nav ul li a {
+    color: hotpink;
+}
+/* Adjacent sibling combinator */
+p + h3{
+    text-decoration: underline;
+}
+.upvote + button{
+    background-color: blue;
+}
+/*child combinator*/
+div > input{
+   background-color: blue;
+}
+/* attribute selector*/
+input[type="text"]{
+    color: red;
+    background-color: white;
+}
+input[type="password"]{
+    color: red;
+}
+/*Practice qs*/
+#myId p{
+    color:black;
+}
+/*pseudo hover class*/
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration:overline;
+}
+/*active class*/
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+h1::first-letter{
+    color: green;
+}
+

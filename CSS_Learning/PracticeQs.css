@@ -1,0 +1,41 @@
+/* *{
+    font-family: 'Courier New';
+}
+h1{
+    color: #1b74e4;
+}
+.userbtn{
+    background-color: aqua;
+}
+#searchbtn{
+    background-color: black;
+    color: white;
+} */
+
+/* div {
+    width: 200px;
+    height: 200px;
+    border: 2px dashed black;
+    background-color: green;
+    transition: margin-right 2s ease 0.2s;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+div:hover{
+    background-color: yellow;
+    margin-top: 500px;
+} */
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255,0,0,1);
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease 0.2s ;
+
+}
+div:hover{
+    background-color: black;
+    margin-top: 400px;
+}
